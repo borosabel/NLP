@@ -19,11 +19,11 @@ We use a subset of the `HumSet` dataset [1] (https://blog.thedeep.io/humset/) to
 In Findings of the 2022 Conference on Empirical Methods in Natural Language Processing (Findings of EMNLP), December 2022.
 
 Looks like this:
-![img.png](data/Dataset.png)
+![img.png](Dataset.png)
 
 # 1. Assignment:
 
-![img.png](data/label_counts.png)
+![img.png](label_counts.png)
 
 In our first assignment, we had to pre-process our dataset by applying various techniques:
 * Converting text to lowercase
@@ -40,7 +40,7 @@ Then, we trained several models with the features from which the best was an SVM
 
 ### See the initial results:
 
-![img.png](data/confusion_matrix.png)
+![img.png](confusion_matrix.png)
 
 The most noticeable aspect of a suitable confusion matrix is the dominance of true positives along the diagonal, which is the case for some classes, such as the ones corresponding to 325, 505, and 529. This indicates that the model correctly classifies most instances for these classes. While the model performs well for some classes, there are clear indications of confusion between particular classes, possibly due to various factors, including class imbalance, overlapping feature distributions, or insufficient discriminative features.
 
